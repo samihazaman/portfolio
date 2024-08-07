@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
 title: My Portfolio
 description: Welcome to my portfolio
+theme: jekyll-theme-cayman
+
+# Social links
+linkedin: https://www.linkedin.com/in/your-profile
+github: https://github.com/your-username
