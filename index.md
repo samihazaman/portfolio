@@ -9,6 +9,6 @@ https://drive.google.com/file/d/1fQdJPufKxrJvq5SlYKzoODIv9g_nhUrg/view?usp=shari
 
 
 ## Contact
-- [Email](samihaz2009@gmail.com)
+- [Email](mailto:samihaz2009@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/samiha-z/)
 - [GitHub](https://github.com/samihazaman)
