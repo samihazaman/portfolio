@@ -1,24 +1,23 @@
 ---
 layout: default
-title: Home
+title: Hi, I'm Samiha
 ---
 
 <img src="assets/images/Github portfolio picture" alt="Samiha" style="width:150px;height:150px;">
 
-# Samiha Zaman
 
-## About Me
+# About Me
 I am a computer science student at CUNY Queens College, with a passion for creating amazing applications. 
 A fun fact about me is that I wanted to be a doctor when I was young.
 
-## Resume
+# Resume
 [Download my resume](https://drive.google.com/file/d/1fQdJPufKxrJvq5SlYKzoODIv9g_nhUrg/view?usp=sharing)
 
-## Links
+# Links
 - [LinkedIn](https://www.linkedin.com/in/samiha-z/)
 - [GitHub](https://github.com/samihazaman)
 
-## Projects
+# Projects
 ### QC Computer Science Academic AI Advisor
 * Worked in a dynamic group of 3 people to develop Queens College Computer Science Academic AI Advisor at  HackCUNY using front end technologies such as HTML, Tailwind CSS, JavaScript and backend technology such as Flask as well as OpenAI’s GPT technology to offer tailored academic advice for QC computer science students
 
