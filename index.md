@@ -3,7 +3,7 @@ layout: default
 title: Hi, I'm Samiha
 ---
 
-<img src="assets/images/technology.jpg" alt="technology" style="width:750px;height:550px;">
+<img src="assets/images/technology.jpg" alt="technology" style="width:780px;height:500px;">
 
 
 # About Me
