@@ -3,7 +3,7 @@ layout: default
 title: Hi, I'm Samiha
 ---
 
-<img src="assets/images/Github portfolio picture.jpg" alt="Samiha" style="width:150px;height:150px;">
+<img src="assets/images/technology.jpg" alt="technology" style="width:350px;height:350px;">
 
 
 # About Me
