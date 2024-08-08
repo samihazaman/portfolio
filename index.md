@@ -12,7 +12,6 @@ I am a computer science student at CUNY Queens College, with a passion for creat
 A fun fact about me is that I wanted to be a doctor when I was young.
 
 ## Resume
-[Download my resume](assets/files/Samiha Zaman Resume.pdf)
 [Download my resume](https://drive.google.com/file/d/1fQdJPufKxrJvq5SlYKzoODIv9g_nhUrg/view?usp=sharing)
 
 ## Links
