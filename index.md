@@ -11,7 +11,7 @@ I am a computer science student at CUNY Queens College, with a passion for creat
 A fun fact about me is that I wanted to be a doctor when I was young.
 
 # Resume
-[Download my resume](https://drive.google.com/file/d/1fQdJPufKxrJvq5SlYKzoODIv9g_nhUrg/view?usp=sharing)
+[Download my resume](https://drive.google.com/file/d/1b-0uLX7OPgk-bvP6cY14Ilq_VE1OYQWw/view?usp=sharing)
 
 # Links
 - [LinkedIn](https://www.linkedin.com/in/samiha-z/)
