@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samiha's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="./images/coding-logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#ux-ui-projects">UX/UI Projects</a>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="social-links">
+        <a href="https://github.com/samihazaman" target="_blank">
+            <img src="./images/github-icon.png" class="github-icon" alt="GitHub">
+        </a>
+   
+        <a href="https://www.linkedin.com/in/samiha-z/" target="_blank">
+            <img src="./images/linkedin-icon.png" class="linkedin-icon" alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About section -->
+  <section id="about">
+    <main class="hero">
+
+      <div class="hero-content">
+        <h1>Hey there,</h1>
+        <p>
+           I'm Samiha, a student at CUNY Queens College majoring in computer science with a minor in interaction design. I'm an aspiring software engineer and web developer with hands-on experiences in a variety of projects. I aim to create impactful digital solutions for real-world challenges. Explore my projects on GitHub to see how I combine design, development, and problem-solving in innovative ways.
+        </p>
+        <a href="./files/Samiha Zaman Resume.pdf" class="resume-button" target="_blank">My Resume</a>
+      </div>
+
+      <div class="hero-bg">
+        <img src="./images/coding-aesthetic.jpg" class="hero-img">
+      </div>
+
+   </main>
+</section>
+
+
+ <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="./images/DietFirst.png" alt="Diet First" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">Diet First</h3>
+          <p class="project-description">
+            DietFirst is a full-stack web application designed to help users manage their diet and make healthier eating choices. 
+            The app allows users to create personalized meal plans, track their progress, and discover healthy recipes 
+            based on dietary preferences, medical conditions, and allergies.
+          </p>
+          <h4 class="tech-stack-title">Tech Stack</h4>
+          <p class="tech-stack">React, Tailwind CSS, Node.js, Express.js, Redux, MongoDB, Edamam API</p>
+          <div class="project-buttons">
+            <a href="https://dietfirst-frontend.vercel.app/" target="_blank" class="btn live-preview">Live Preview</a>
+            <a href="https://github.com/DietFirst/DietFirst" target="_blank" class="btn source-code">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="./images/qc cs ai advisor.png" alt="QC Computer Science AI Advisor" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">QC Computer Science AI Advisor</h3>
+          <p class="project-description">
+            A web app created during a hackathon that navigates through prerequisites, electives, semesters left, etc., 
+            to provide Queens College computer science students a clear and optimized path to graduation, 
+            saving them time in planning schedules and offering tailored academic advice.
+          </p>
+          <h4 class="tech-stack-title">Tech Stack</h4>
+          <p class="tech-stack">HTML, Tailwind CSS, JavaScript, Flask, OpenAI API</p>
+          <div class="project-buttons">
+            <a href="https://devpost.com/software/queens-college-computer-science-ai-advisor" target="_blank" class="btn live-preview">Live Preview</a>
+            <a href="https://github.com/samihazaman/qccs-ai-advisor" target="_blank" class="btn source-code">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="./images/cuny connect essentials.png" alt="CUNY Connect Essentials" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">CUNY Connect Essentials</h3>
+          <p class="project-description">
+            A web application that informs CUNY students about essential resources, such as food, housing, mental health services, 
+            available at their campus. It includes an interactive survey that customizes resources for students based on their college, 
+            enhancing accessibility to vital support services
+        </p>
+          <h4 class="tech-stack-title">Tech Stack</h4>
+          <p class="tech-stack">React, Node.js, HTML, Tailwind CSS</p>
+          <div class="project-buttons">
+            <a href="https://cuny-students-matter.vercel.app/" target="_blank" class="btn live-preview">Live Preview</a>
+            <a href="https://github.com/samihazaman/cuny-students-matter" target="_blank" class="btn source-code">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <img src="./images/weather-app.png" alt="Weather App" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">Weather App</h3>
+          <p class="project-description">
+            A user-friendly weather application that allows users to search for real-time weather information across 
+            cities worldwide. The app provides key weather data such as temperature, humidity, and wind speed, along 
+            with relevant weather icons for a visual experience.
+        </p>
+          <h4 class="tech-stack-title">Tech Stack</h4>
+          <p class="tech-stack">React, OpenWeather API, JavaScript, CSS</p>
+          <div class="project-buttons">
+            <a href="https://weather-app-sandy-three-27.vercel.app/" target="_blank" class="btn live-preview">Live Preview</a>
+            <a href="https://github.com/samihazaman/weather-app" target="_blank" class="btn source-code">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- Project 5 -->
+        <div class="project-card">
+            <img src="./images/character-quiz.png" alt="Character Quiz" class="project-image">
+            <div class="project-details">
+              <h3 class="project-title">Character Quiz</h3>
+              <p class="project-description">
+                This project is an interactive character quiz that determines which Harry Potter house a user belongs to 
+                based on their answers to a series of personality-driven questions. Upon completion, the quiz provides a 
+                result that matches the user to one of the four Hogwarts houses.
+            </p>
+              <h4 class="tech-stack-title">Tech Stack</h4>
+              <p class="tech-stack">React, OpenWeather API, JavaScript, CSS</p>
+              <div class="project-buttons">
+                <a href="https://samihazaman.github.io/Character-Quiz/" target="_blank" class="btn live-preview">Live Preview</a>
+                <a href="https://github.com/samihazaman/Character-Quiz" target="_blank" class="btn source-code">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+    </div>
+  </section>
+
+<!-- UX/UI Projects Section -->
+<section id="ux-ui-projects">
+  <h2 class="section-title">UX/UI Projects</h2>
+
+  <h3 class="mobile-title">DietFirst Mobile Design</h3>
+
+  <div class="carousel">
+    <button class="carousel-btn left-btn" id="prev-btn">❮</button>
+
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="ui-project-card">
+          <img src="./mobile-screens/landing_screen.svg" alt="Landing Screen">
+        </div>
+        <div class="ui-project-card">
+          <img src="./mobile-screens/sign_up_page.svg" alt="Sign Up Page">
+        </div>
+        <div class="ui-project-card">
+          <img src="./mobile-screens/recommended_recipes.svg" alt="Recommended Recipes">
+        </div>
+        <div class="ui-project-card">
+          <img src="./mobile-screens/specific_recipe_page.svg" alt="Specific Recipe Page">
+        </div>
+        <div class="ui-project-card">
+          <img src="./mobile-screens/saved_recipes.svg" alt="Saved Recipes">
+        </div>
+        <div class="ui-project-card">
+          <img src="./mobile-screens/explore_page.svg" alt="Explore Page">
+        </div>
+        <div class="ui-project-card">
+          <img src="./mobile-screens/progress_tracking.svg" alt="Progress Tracking">
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-btn right-btn" id="next-btn">❯</button>
+  </div>
+</section>
+
+
+  
+ <!-- Skills section -->
+  <section id="skills" class="skills-section">
+    <h2 class="section-title">Skills</h2>
+    <p class="skills-intro">
+      I have experience working with a variety of technologies as a developer.
+      I've developed and maintained multiple projects using these technologies,
+      and I'm always eager to learn more.
+    </p>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <h3>HTML</h3>
+        <p>Static webpages and portfolio projects</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <h3>CSS</h3>
+        <p>Styling of my webpages</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <h3>JavaScript</h3>
+        <p>For dynamic and interactive webpages</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <h3>React</h3>
+        <p>Building multi-page and single-page interfaces</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        <h3>Node.js</h3>
+        <p>For server-side programming</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery" >
+        <h3>jQuery</h3>
+        <p>Fast, small, and feature-rich JavaScript library</p>
+      </div>
+
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" >
+        <h3>Bootstrap</h3>
+        <p>Responsive development of mobile-first websites</p>
+      </div>
+
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+        <h3>MySQL</h3>
+        <p>Storing client and user data</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+        <h3>Java</h3>
+        <p>OOP language for coding and programming projects</p>
+      </div>
+  
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+        <h3>Git</h3>
+        <p>Code management and version control</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+        <h3>Figma</h3>
+        <p>For designing mockups and wireframes</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" alt="Photoshop">
+        <h3>Photoshop</h3>
+        <p>For image editing, retouching, and website wireframes</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="contact-intro">Feel free to reach out to me for collaborations or just to say hi!</p>
+    <p>Email: <a href="mailto:example@example.com">samihaz2009@gmail.com</a></p>
+    <div class="socials">
+      <a href="https://github.com/samihazaman" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/samiha-z" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+      
+  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
